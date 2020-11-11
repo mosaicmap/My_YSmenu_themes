@@ -28,5 +28,5 @@ You can buy "R4 SDHC" card on eBay or AliExpress (now, 2020).
 
 `YSMenu*.bmp` images have to be saved in the format:
 
-![Do not write color space information, 24 bits color, R8 G8 B8](screenshots/GIMP_export_bmp_.png)
+![Do not write color space information, 24 bits color, R8 G8 B8](images/GIMP_export_bmp_.png)
 
