@@ -16,11 +16,11 @@ If you have custom `YSmenu.ini` then *overwrite only sections* `[FILELIST]` and 
 
 You can buy a new "R4 SDHC" card on eBay or AliExpress (At least now, in 2020).
 
-["How To Setup An R4 Card"](https://www.youtube.com/watch?v=7yTyDVl1ICc) video on YouTube describing How to install YSmenu
+See ["How To Setup An R4 Card"](https://www.youtube.com/watch?v=7yTyDVl1ICc) video on YouTube describing how to install YSmenu
 
 See [Excellent ZX Spectrum emulator ZXDS written by Patrik Rak](http://zxds.raxoft.cz/)
 
-## YSmenu theme
+## YSmenu theme files
 
 ### `YSmenu.ini`
 
