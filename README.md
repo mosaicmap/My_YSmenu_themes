@@ -1,12 +1,10 @@
 YSmenu_themes
 =============
-My themes for YSmenu. YSmenu is an alternative free (but closed-source) firmware for R4 cartridges for game handhelds Nintendo DS.
+My themes for YSmenu. YSmenu is an alternative free (but closed-source) firmware for R4 cartridges for  Nintendo DS.
 
-TODO
+For more information, see articles on Wikipedia: 
+[R4 cartridge](https://en.wikipedia.org/wiki/R4_cartridge), [Nintendo DS Lite](https://en.wikipedia.org/wiki/Nintendo_DS_Lite), [Nintendo DS](https://en.wikipedia.org/wiki/Nintendo_DS), [Nintendo DSi](https://en.wikipedia.org/wiki/Nintendo_DSi)
 
-For more information, see articles:  
-[Nintendo DS Lite on Wikipedia](https://en.wikipedia.org/wiki/Nintendo_DS_Lite) and 
-[R4 cartridge on Wikipedia](https://en.wikipedia.org/wiki/R4_cartridge)
 
 ## Theme installation
 
@@ -16,17 +14,23 @@ If you have custom `YSmenu.ini` then overwrite only sections `[FILELIST]` and `[
 
 ## Tips
 
-See [Excellent ZX Spectrum emulator ZXDS written by Patrik Rak](http://zxds.raxoft.cz/)
-
 You can buy "R4 SDHC" card on eBay or AliExpress (now, 2020).
+
+["How To Setup An R4 Card"](https://www.youtube.com/watch?v=7yTyDVl1ICc) video on YouTube describing How to install YSmenu
+
+See [Excellent ZX Spectrum emulator ZXDS written by Patrik Rak](http://zxds.raxoft.cz/)
 
 ## YSmenu theme
 
-`YSmenu.ini` code colors are in an uncommon format BGR15. For converting colors to this format, you can use my simple Python script `html2bgr15.py` For more information:
+### `YSmenu.ini`
+
+`YSmenu.ini` use color codes in an uncommon format BGR15. For converting colors to this format, you can use my simple Python script `html2bgr15.py` For more information:
 
     python3 html2bgr15.py --help 
 
-`YSMenu*.bmp` images have to be saved in the format:
+### `YSMenu*.bmp`
+
+BMP images have to be saved in the format:
 
 ![Do not write color space information, 24 bits color, R8 G8 B8](images/GIMP_export_bmp_.png)
 
