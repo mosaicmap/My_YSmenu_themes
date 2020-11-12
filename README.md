@@ -8,13 +8,13 @@ For more information, see articles on Wikipedia:
 
 ## Theme installation
 
-You can simply copy `YSmenu.ini`, `YSMenu2.bmp`, `YSMenu2.bmp` to `<SD_card>/TTmenu/`
+You can simply copy `YSmenu.ini`, `YSMenu2.bmp`, `YSMenu2.bmp` to `<your_SD_card>/TTmenu/`
 
-If you have custom `YSmenu.ini` then overwrite only sections `[FILELIST]` and `[FILEINFO]`
+If you have custom `YSmenu.ini` then *overwrite only sections* `[FILELIST]` and `[FILEINFO]`...
 
 ## Tips
 
-You can buy "R4 SDHC" card on eBay or AliExpress (now, 2020).
+You can buy a new "R4 SDHC" card on eBay or AliExpress (At least now, in 2020).
 
 ["How To Setup An R4 Card"](https://www.youtube.com/watch?v=7yTyDVl1ICc) video on YouTube describing How to install YSmenu
 
@@ -24,7 +24,7 @@ See [Excellent ZX Spectrum emulator ZXDS written by Patrik Rak](http://zxds.raxo
 
 ### `YSmenu.ini`
 
-`YSmenu.ini` use color codes in an uncommon format BGR15. For converting colors to this format, you can use my simple Python script `html2bgr15.py` For more information:
+`YSmenu.ini` uses color codes in an uncommon format BGR15. For converting colors to this format, you can use my simple Python script `html2bgr15.py` For more information run:
 
     python3 html2bgr15.py --help 
 
