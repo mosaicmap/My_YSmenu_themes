@@ -12,22 +12,14 @@ import sys
 import math
 import logging
 
-__version__ = '0.1 (2020-11-10)'
+__version__ = '0.2 (2021-05-05)'
 __author__ = 'Martin Pokorný'
 
 logging.basicConfig(stream=sys.stdout,
                     level=logging.INFO,
-                    # level=logging.DEBUG,
+                    #level=logging.DEBUG,
                     format='{line:%(lineno)d} %(levelname)s: %(message)s')
 log = logging.getLogger(os.path.basename(__file__))
-
-
-def eight_b_to_five_b(val: int):
-    """
-    0-255  ->  0-31
-    """
-    # NO:  return int(round(val / 8, 0))  -->   0-32 !
-    return int(math.floor(val / 8))
 
 
 def convert_html_rgb_to_bgr15(html_c: str):
@@ -37,14 +29,19 @@ def convert_html_rgb_to_bgr15(html_c: str):
 
     :param html_c:  color in HTML format (#RRGGBB)
     :return:  BGR15 in haxadecimal format 0xXXXX
+    
+    >>> convert_html_rgb_to_bgr15("FF0088")
+    '0xC41F'
+    >>> convert_html_rgb_to_bgr15("#FF0088")
+    '0xC41F'
     """
     html_c = html_c.lstrip("#")
     log.debug(f"{html_c}")
 
     # rgb 8 bit values to 5 bit values ...
-    r = eight_b_to_five_b(int(html_c[0:2], 16))
-    g = eight_b_to_five_b(int(html_c[2:4], 16))
-    b = eight_b_to_five_b(int(html_c[4:6], 16))
+    r = int(html_c[0:2], 16) >> 3
+    g = int(html_c[2:4], 16) >> 3
+    b = int(html_c[4:6], 16) >> 3
     log.debug(f"r:{r}, g:{g}, b:{b}")
     log.debug(f"r:{r:05b}, g:{g:05b}, b:{b:05b}")
 
@@ -81,7 +78,6 @@ def handle_args(args):
             print(f"{html_c} -> {bgr15_c}")
         except Exception as ex:
             log.error("{}: {}".format(type(ex).__name__, ex))
-            #print("{}: {}".format(type(ex).__name__, ex), file=sys.stderr)
 
 
 def main():
@@ -89,5 +85,11 @@ def main():
     handle_args(args)
 
 
+def _test():
+    import doctest  
+    doctest.testmod()  
+
+
 if __name__ == '__main__':
+    #_test()
     main()
