@@ -7,7 +7,7 @@ For more information, see articles on Wikipedia:
 
 ## Motivation
 
-I bought "R4 SDHC 2020" from AliExpress. But I was disappointed with the original firmware because of the awful user interface and "timebomb feature". "Timebomb feature" causes failure of the firmware after five years! (So shameful!)  
+I bought "R4 SDHC 2020" on AliExpress. But I was disappointed with the original firmware because of the awful user interface and "timebomb feature". "Timebomb feature" causes failure of the firmware after five years! (So shameful!)  
 
 I found out somebody canny modified an R4 firmware to boot directly to *YSmenu* to fix the "timebomb". But I couldn't find a theme I would be satisfied with...
 
