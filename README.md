@@ -51,8 +51,7 @@ Background images. `YSMenu1.bmp` for the top and `YSMenu2.bmp` for the bottom sc
 Images have to be saved in the format:
 
 - write without color space information
-- 24 bits color
-- R8 G8 B8
+- 24 bits color - R8 G8 B8
 
 ![Do not write color space information, 24 bits color, R8 G8 B8](images/GIMP_export_bmp_.png)
 
