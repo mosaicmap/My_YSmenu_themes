@@ -27,7 +27,7 @@ Probaly original YSmenu R4 firmware mod: ["multi-cart-update" by retrogamefan on
 
 ## Theme installation
 
-You can simply copy `YSmenu.ini`, `YSMenu2.bmp`, `YSMenu2.bmp` to `<your_SD_card>/TTmenu/`
+You can simply copy `YSmenu.ini`, `YSMenu1.bmp`, `YSMenu2.bmp` to `<your_SD_card>/TTmenu/`
 
 If you have custom `YSmenu.ini` then *overwrite only sections* `[FILELIST]` and `[FILEINFO]`...
 
@@ -48,9 +48,11 @@ Alternatively, there is an [online converter http://www.conradshome.com/html2bgr
 
 Background images. `YSMenu1.bmp` for the top and `YSMenu2.bmp` for the bottom screen.
 
+Resolution is 256 × 192 pixels for both.
+
 Images have to be saved in the format:
 
-- write without color space information
+- no color space information
 - 24 bits color - R8 G8 B8
 
 ![Do not write color space information, 24 bits color, R8 G8 B8](images/GIMP_export_bmp_.png)
