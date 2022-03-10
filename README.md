@@ -22,7 +22,7 @@ But I couldn't find a YSmenu theme I would be satisfied with...
 See ["How To Setup An R4 Card"](https://www.youtube.com/watch?v=7yTyDVl1ICc) video on YouTube describing how to install YSmenu to "R4 SDHC 2020". Link from the video to download YSmenu: ["R4 Card TimeBomb Fix.zip"](https://mega.nz/file/05sFxDiC#PrL6yFpo_qBgEXs3bixQTmHupjOu_wsCednBWwRGtSg)
 Or an alternative video: ["How to Install YSMenu on your DS Flashcart"](https://www.youtube.com/watch?v=9_mnV4ZbUF0) And link to get YSmenu: ["YSmenu.7z"](https://drive.google.com/file/d/14pcOGd-O9zYMVxO0JpK5QQjjwRvMqldc/view))
 
-Probaly original YSmenu R4 firmware mod: ["multi-cart-update" by retrogamefan on gbatemp.net](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/).
+Probaly the original YSmenu R4 firmware mod: ["multi-cart-update" by retrogamefan on gbatemp.net](https://gbatemp.net/download/retrogamefan-multi-cart-update.35737/).
 
 
 ## Theme installation
